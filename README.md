@@ -60,3 +60,6 @@ Abra um pull request neste repositório.
 Este repositório foi criado para auxiliá-lo em suas atividades de Java relacionadas a vetores e funções. Certifique-se de compreender os conceitos por trás de cada atividade e aproveite a oportunidade para aprimorar suas habilidades de programação. Se tiver alguma dúvida, consulte seu professor ou abra uma issue neste repositório.
 
 Divirta-se programando!
+
+## Créditos
+Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos
