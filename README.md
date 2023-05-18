@@ -14,7 +14,7 @@ O repositório está organizado da seguinte maneira:
         |-- atividade2
            |-- enunciado.
            |-- solucao1.java
-    |-- atividade2_lista/
+    |-- atividade_lista/
         |-- atividade1
 |-- vetores/
 ...
