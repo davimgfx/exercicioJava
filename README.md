@@ -1,5 +1,7 @@
 # Repositório de Atividades de Java - Vetores e Funções
-Bem-vindo ao repositório de atividades de Java focadas em vetores e funções! Este repositório foi criado para auxiliá-lo nas atividades propostas pelo seu professor de Lógica de Programação e Algoritmos. Aqui você encontrará uma variedade de exercícios e exemplos relacionados a vetores e funções em Java.
+Bem-vindo ao repositório de atividades de Java focadas em vetores e funções! Este repositório foi criado para auxiliá-lo nas atividades propostas pelo seu professor de Lógica de Programação e Algoritmos. Aqui você encontrará uma variedade de exercícios e exemplos relacionados a vetores e funções em Java. <br>
+
+*Os arquivos de resolução estão dentro da página src, com o nome app.java*
 
 ## Estrutura do Repositório
 O repositório está organizado da seguinte maneira:
@@ -62,4 +64,4 @@ Este repositório foi criado para auxiliá-lo em suas atividades de Java relacio
 Divirta-se programando!
 
 ## Créditos
-Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos
+Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
