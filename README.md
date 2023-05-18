@@ -16,6 +16,8 @@ O repositório está organizado da seguinte maneira:
            |-- solucao1.java
     |-- atividade2_lista/
         |-- atividade1
+|-- vetores/
+...
 ```
 A pasta atividades/ contém subpastas, e cada subspasta possui uma fonte diferente, para cada atividade específica. Cada atividade conterá o enunciado do exercício e a solução em java. Sinta-se à vontade para adicionar suas próprias soluções nesta pasta.
 
