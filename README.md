@@ -24,15 +24,13 @@ O repositório está organizado da seguinte maneira:
 A pasta atividades/ contém subpastas, e cada subspasta possui uma fonte diferente, para cada atividade específica. Cada atividade conterá o enunciado do exercício e a solução em java. Sinta-se à vontade para adicionar suas próprias soluções nesta pasta.
 
 ## Menu
+Para facilitar sua navegação, utilize o menu:
 
 ### Atividades Slides
-Num | Link 
----|---
-1 | [Atividade1](funcoes/atividades_slides/atividade1/solucao1/src/App.java) 
-2 | Gustavo  
-3 | Ninja
-4 | Carlo
-5 | João
+Num | Enunciado | Solução
+---|---|---
+1 | [Enunciado](funcoes/atividades_slides/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade1/solucao1/src/App.java)
+2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao2](funcoes/atividades_slides/atividade2/solucao1/src/App.java)
 
 ### Atividade Lista
 
