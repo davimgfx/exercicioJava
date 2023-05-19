@@ -28,7 +28,7 @@ Para facilitar sua navegação, utilize o menu:
 
 ### Atividades Slides
 Num | Enunciado | Solução1 | Solução2 
----|---|---
+---|---|---|---
 1 | [Enunciado](funcoes/atividades_slides/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade1/solucao1/src/App.java) | X
 2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade2/solucao1/src/App.java) | X
 
