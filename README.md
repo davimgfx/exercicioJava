@@ -27,10 +27,10 @@ A pasta atividades/ contém subpastas, e cada subspasta possui uma fonte diferen
 Para facilitar sua navegação, utilize o menu:
 
 ### Atividades Slides
-Num | Enunciado | Solução
+Num | Enunciado | Solução1 | Solução2 
 ---|---|---
-1 | [Enunciado](funcoes/atividades_slides/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade1/solucao1/src/App.java)
-2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao2](funcoes/atividades_slides/atividade2/solucao1/src/App.java)
+1 | [Enunciado](funcoes/atividades_slides/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade1/solucao1/src/App.java) | X
+2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade2/solucao1/src/App.java) | X
 
 ### Atividade Lista
 
