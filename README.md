@@ -33,7 +33,7 @@ Num | Enunciado | Solução1 | Solução2
 2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade2/solucao1/src/App.java) | X
 3 | [Enunciado](funcoes/atividades_slides/atividade3/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade3/solucao1/src/App.java)
 4 | [Enunciado](funcoes/atividades_slides/atividade4/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade4/solucao1/src/App.java)
-5 | [Enunciado](funcoes/atividades_slides/atividade5/enunicado.md) | [Solucao1](funcoes/atividades_slides/atividade5/solucao1/src/App.java)
+5 | [Enunciado](funcoes/atividades_slides/atividade5/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade5/solucao1/src/App.java)
 ### Atividade Lista (Função)
 
 ### Atividade Slide (Vetores)
