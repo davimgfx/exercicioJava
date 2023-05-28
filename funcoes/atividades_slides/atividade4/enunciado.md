@@ -1,9 +1,9 @@
-Faça um algoritmo em Java que receba a idade de uma pessoa e informe em
-qual das categorias se enquadra em relação à obrigatoriedade do voto:
-
-* Sem permissão para votar (0 a 15 anos)
-* Voto facultativo (16 a 17 anos, acima de 65 anos)
-* Voto obrigatório (18 a 64 anos)
-
-O programa deve ter uma função que recebe a idade e mostra na tela
-uma das mensagens.
+Faça um programa em Java que receba três valores inteiros
+referentes ao tamanho dos três lados de um triângulo. Para
+formar um triângulo cada lado deve ser menor do que a soma
+dos outros dois lados. Uma vez verificado que os valores estão
+corretos (ou seja, formam um triângulo) o programa deve
+classifica-lo em equilátero (todos os lados iguais), isósceles (dois
+lados iguais), escaleno (todos os lados diferentes).
+O programa deve ter uma função que receba o tamanho dos três
+lados e mostre na tela a classificação do triângulo
