@@ -31,7 +31,9 @@ Num | Enunciado | Solução1 | Solução2
 ---|---|---|---
 1 | [Enunciado](funcoes/atividades_slides/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade1/solucao1/src/App.java) | X
 2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade2/solucao1/src/App.java) | X
-
+3 | [Enunciado](funcoes/atividades_slides/atividade3/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade3/solucao1/src/App.java)
+4 | [Enunciado](funcoes/atividades_slides/atividade4/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade4/solucao1/src/App.java)
+5 | [Enunciado](funcoes/atividades_slides/atividade5/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade5/solucao1/src/App.java)
 ### Atividade Lista (Função)
 
 ### Atividade Slide (Vetores)
@@ -68,90 +70,6 @@ Divirta-se programando!
 Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
 
 ## Precisando organizar
-Exercio 3 Slide
-public class Main {
-
-  public static void main(String[] args) {
-    classificacao(3);
-  }
-
-  public static void classificacao(int idade){
-      if(idade >=5 && idade <=7){
-        System.out.println("Infantil A");
-      }
-      else if (idade >=8 && idade <=10){
-        System.out.println("Infantil B");
-      }
-      else if (idade >=11 && idade <=13){
-        System.out.println("Juvenil A");
-      }
-      else if (idade >=14 && idade <=17){
-        System.out.println("Juvenil B");
-      }
-      else if (idade >18){
-        System.out.println("Senior");
-      }
-      else{
-        System.out.println("IDADE NÃO CADASTRADA");
-      }
-  }
-}
-
-Exercicio 4 Slide
-public class Main {
-
-  public static void main(String[] args) {
-    triangulo(3, 3, 5);
-  }
-  
-  public static void triangulo(int lado1, int lado2, int lado3){
-      if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1){
-        if(lado1 == lado2 && lado2 == lado3){
-          System.out.println("É equilátero");
-        } else if (lado1 != lado2 && lado2 !=  lado3 && lado3 != lado2){
-          System.out.println("É isósceles");
-        } else {
-          System.out.println("É escaleno");
-        }
-      }
-      else{
-        System.out.println("Não é um triangulo");
-      }
-  }
-}
-
-Exercicio 5 Slide
-public class Main {
-
-  public static void main(String[] args) {
-    System.out.println(eTriangulo(3, 3, 5));
-    classificacao(3, 3,5);
-  }
-  
-  public static boolean eTriangulo(int lado1, int lado2, int lado3){
-      if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1){
-        return true;
-      }
-      else{
-        return false;
-      }
-  }
-
-  public static void classificacao(int lado1, int lado2, int lado3){
-      if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1){
-        if(lado1 == lado2 && lado2 == lado3){
-          System.out.println("É equilátero");
-        } else if (lado1 != lado2 && lado2 !=  lado3 && lado3 != lado2){
-          System.out.println("É isósceles");
-        } else {
-          System.out.println("É escaleno");
-        }
-      }
-      else{
-        System.out.println("Não é um triangulo");
-      }
-  }
-}
 
 Exercicio 1 Lista
 
