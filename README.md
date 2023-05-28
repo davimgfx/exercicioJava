@@ -1,5 +1,5 @@
 # Repositório de Atividades de Java - Vetores e Funções
-Bem-vindo ao repositório de atividades de Java focadas em vetores e funções! Este repositório foi criado para auxiliá-lo nas atividades propostas pelo seu professor de Lógica de Programação e Algoritmos. Aqui você encontrará uma variedade de exercícios e exemplos relacionados a vetores e funções em Java. <br>
+Bem-vindo ao repositório de atividades de Java focadas em vetores e funções! Este repositório foi criado para auxiliá-lo nas atividades propostas pelo seu professor de Lógica de Programação e Algoritmos. Aqui você encontrará uma variedade de exercícios e exemplos relacionados a vetores e funções em Java, com resolução. <br>
 
 *Os arquivos de resolução estão dentro da página src, com o nome app.java*
 
@@ -23,19 +23,20 @@ O repositório está organizado da seguinte maneira:
 ```
 A pasta atividades/ contém subpastas, e cada subspasta possui uma fonte diferente, para cada atividade específica. Cada atividade conterá o enunciado do exercício e a solução em java. Sinta-se à vontade para adicionar suas próprias soluções nesta pasta.
 
-## Como usar o Repositório
-Clone o repositório em sua máquina local utilizando o seguinte comando:
-```
-git clone <URL_DO_REPOSITÓRIO>
-```
-Navegue até a pasta da atividade desejada, por exemplo:
+## Menu
+Para facilitar sua navegação, utilize o menu:
 
-Copy code
-```
-cd atividades_slides
-```
+### Atividades Slides (Função)
+Num | Enunciado | Solução1 | Solução2 
+---|---|---|---
+1 | [Enunciado](funcoes/atividades_slides/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade1/solucao1/src/App.java) | X
+2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade2/solucao1/src/App.java) | X
 
-Compile e execute os arquivos .java usando o seu ambiente de desenvolvimento Java preferido ou o terminal.
+### Atividade Lista (Função)
+
+### Atividade Slide (Vetores)
+
+### Atividade Lista (Vetores)
 
 ## Contribuindo
 Sinta-se à vontade para contribuir com este repositório! Se você tiver soluções alternativas para as atividades existentes ou quiser adicionar novas atividades ou exemplos, siga estas etapas:
@@ -65,3 +66,229 @@ Divirta-se programando!
 
 ## Créditos
 Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
+
+## Precisando organizar
+Exercio 3 Slide
+public class Main {
+
+  public static void main(String[] args) {
+    classificacao(3);
+  }
+
+  public static void classificacao(int idade){
+      if(idade >=5 && idade <=7){
+        System.out.println("Infantil A");
+      }
+      else if (idade >=8 && idade <=10){
+        System.out.println("Infantil B");
+      }
+      else if (idade >=11 && idade <=13){
+        System.out.println("Juvenil A");
+      }
+      else if (idade >=14 && idade <=17){
+        System.out.println("Juvenil B");
+      }
+      else if (idade >18){
+        System.out.println("Senior");
+      }
+      else{
+        System.out.println("IDADE NÃO CADASTRADA");
+      }
+  }
+}
+
+Exercicio 4 Slide
+public class Main {
+
+  public static void main(String[] args) {
+    triangulo(3, 3, 5);
+  }
+  
+  public static void triangulo(int lado1, int lado2, int lado3){
+      if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1){
+        if(lado1 == lado2 && lado2 == lado3){
+          System.out.println("É equilátero");
+        } else if (lado1 != lado2 && lado2 !=  lado3 && lado3 != lado2){
+          System.out.println("É isósceles");
+        } else {
+          System.out.println("É escaleno");
+        }
+      }
+      else{
+        System.out.println("Não é um triangulo");
+      }
+  }
+}
+
+Exercicio 5 Slide
+public class Main {
+
+  public static void main(String[] args) {
+    System.out.println(eTriangulo(3, 3, 5));
+    classificacao(3, 3,5);
+  }
+  
+  public static boolean eTriangulo(int lado1, int lado2, int lado3){
+      if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1){
+        return true;
+      }
+      else{
+        return false;
+      }
+  }
+
+  public static void classificacao(int lado1, int lado2, int lado3){
+      if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1){
+        if(lado1 == lado2 && lado2 == lado3){
+          System.out.println("É equilátero");
+        } else if (lado1 != lado2 && lado2 !=  lado3 && lado3 != lado2){
+          System.out.println("É isósceles");
+        } else {
+          System.out.println("É escaleno");
+        }
+      }
+      else{
+        System.out.println("Não é um triangulo");
+      }
+  }
+}
+
+Exercicio 1 Lista
+
+import java.util.Scanner;
+public class Main {
+
+  public static void main(String[] args) {
+		int n, soma=0, cont=0, p=2;
+    Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		while(cont!=n) {
+			if(acharPrimo(p)) {
+				soma += p; 
+				cont++;
+			}
+			p++;
+		}
+		System.out.println(soma);
+	}
+
+	public static boolean acharPrimo(int n){
+    int count = 0;
+    int i = 1;
+    while(i <= n){
+      if(n % i == 0){
+        count++;  
+      }
+      i++;
+    }
+    if(count == 2){
+       return true;
+    } else{
+      return false;
+    }
+  }
+}
+
+
+Exercicio 2 Lista
+
+import java.util.Scanner;
+
+public class L6Q1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a, b;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		System.out.println(mmc(a, b));
+
+	}
+
+	public static int mmc(int a, int b) {
+		int minimoMultiplo=b;
+		
+		while((minimoMultiplo%a!=
+0)||(minimoMultiplo%b!=0)) {
+			minimoMultiplo++;
+		}
+		return minimoMultiplo;
+	}
+	
+	Exercicio 3 Lista
+	
+	public class Main {
+
+	public static void main(String[] args) {
+		System.out.println(Fibonacci(2));
+	}
+
+	public static int Fibonacci(int n) {
+		int a=1,b=1, c=a+b, i=2;
+		if (n == 1 || n == 2) return 1;
+    while(i < n){
+      c = a+b;
+      a = b;
+      b = c; 
+      i++;
+    }
+    return c;
+  }
+}
+
+Exercicio 4 Lista
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+     String opcao;
+    Scanner sc = new Scanner(System.in);
+    while (true) {
+      System.out.println("Voce quer ver a tabuada?  ");
+      opcao = sc.nextLine();
+      if(opcao.equals("n")){
+        break;
+      }
+      if (opcao.equals("s")) {
+        System.out.println("Digite o numero");
+        int n = sc.nextInt();
+        tabuada(n);
+      }
+    }
+  }
+
+  public static void tabuada(int n1) {
+    for(int i = 0; i < 11; i++){
+      System.out.println(n1+" x "+i+" = "+(n1*i));
+    }
+  }
+}
+
+Exercicio 5 Java
+import java.text.DecimalFormat;
+
+public class Main {
+    public static void main(String[] args) {
+        int n = 5; // Defina o valor de "n" desejado
+        
+        double soma = valordesa(n);
+        
+        DecimalFormat df = new DecimalFormat("#.######"); // Define o padrão de formatação com 6 casas decimais
+        
+        String resultadoFormatado = df.format(soma);
+        
+        System.out.println("A soma da série harmônica até " + n + " é: " + resultadoFormatado);
+    }
+
+    public static double valordesa(int n1) {
+        double soma = 1;
+        int i = 1;
+        while (i < n1) {
+            soma += 1.0 / i;
+            i++;
+        }
+        return soma;
+    }
+}
+
