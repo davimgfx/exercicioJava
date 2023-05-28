@@ -31,9 +31,9 @@ Num | Enunciado | Solução1 | Solução2
 ---|---|---|---
 1 | [Enunciado](funcoes/atividades_slides/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade1/solucao1/src/App.java) | X
 2 | [Enunciado](funcoes/atividades_slides/atividade2/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade2/solucao1/src/App.java) | X
-3 | [Enunciado](funcoes/atividades_slides/atividade3/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade3/solucao1/src/App.java)
-4 | [Enunciado](funcoes/atividades_slides/atividade4/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade4/solucao1/src/App.java)
-5 | [Enunciado](funcoes/atividades_slides/atividade5/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade5/solucao1/src/App.java)
+3 | [Enunciado](funcoes/atividades_slides/atividade3/enunicado.png) | [Solucao1](funcoes/atividades_slides/atividade3/solucao1/src/App.java) | X
+4 | [Enunciado](funcoes/atividades_slides/atividade4/enunciado.md) | [Solucao1](funcoes/atividades_slides/atividade4/solucao1/src/App.java) | X
+5 | [Enunciado](funcoes/atividades_slides/atividade5/enunciado.png) | [Solucao1](funcoes/atividades_slides/atividade5/solucao1/src/App.java) | X
 ### Atividade Lista (Função)
 
 ### Atividade Slide (Vetores)
