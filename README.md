@@ -214,3 +214,81 @@ public class L6Q1 {
 		}
 		return minimoMultiplo;
 	}
+	
+	Exercicio 3 Lista
+	
+	public class Main {
+
+	public static void main(String[] args) {
+		System.out.println(Fibonacci(2));
+	}
+
+	public static int Fibonacci(int n) {
+		int a=1,b=1, c=a+b, i=2;
+		if (n == 1 || n == 2) return 1;
+    while(i < n){
+      c = a+b;
+      a = b;
+      b = c; 
+      i++;
+    }
+    return c;
+  }
+}
+
+Exercicio 4 Lista
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+     String opcao;
+    Scanner sc = new Scanner(System.in);
+    while (true) {
+      System.out.println("Voce quer ver a tabuada?  ");
+      opcao = sc.nextLine();
+      if(opcao.equals("n")){
+        break;
+      }
+      if (opcao.equals("s")) {
+        System.out.println("Digite o numero");
+        int n = sc.nextInt();
+        tabuada(n);
+      }
+    }
+  }
+
+  public static void tabuada(int n1) {
+    for(int i = 0; i < 11; i++){
+      System.out.println(n1+" x "+i+" = "+(n1*i));
+    }
+  }
+}
+
+Exercicio 5 Java
+import java.text.DecimalFormat;
+
+public class Main {
+    public static void main(String[] args) {
+        int n = 5; // Defina o valor de "n" desejado
+        
+        double soma = valordesa(n);
+        
+        DecimalFormat df = new DecimalFormat("#.######"); // Define o padrão de formatação com 6 casas decimais
+        
+        String resultadoFormatado = df.format(soma);
+        
+        System.out.println("A soma da série harmônica até " + n + " é: " + resultadoFormatado);
+    }
+
+    public static double valordesa(int n1) {
+        double soma = 1;
+        int i = 1;
+        while (i < n1) {
+            soma += 1.0 / i;
+            i++;
+        }
+        return soma;
+    }
+}
+
