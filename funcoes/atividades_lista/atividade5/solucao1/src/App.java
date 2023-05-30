@@ -22,4 +22,13 @@ public class App {
         }
         return soma;
     }
+     public static double valordesb(int n1) {
+        double soma = 1;
+        int i = 0;
+        while (i < n1) {
+            soma += (i + 1) / (n - i);
+            i++;
+        }
+        return soma;
+    }
 }
