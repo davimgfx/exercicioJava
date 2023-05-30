@@ -42,7 +42,7 @@ Num | Enunciado | Solução1 | Solução2
 3 | [Enunciado](funcoes/atividades_slides/atividade3/enunicado.png) | [Solucao1](funcoes/atividades_lista/atividade3/solucao1/src/App.java) | X
 4 | [Enunciado](funcoes/atividades_slides/atividade4/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade4/solucao1/src/App.java) | X
 5 | [Enunciado](funcoes/atividades_slides/atividade5/enunciado.png) | [Solucao1](funcoes/atividades_lista/atividade5/solucao1/src/App.java) | X
-5 | [Enunciado](funcoes/atividades_slides/atividade6/enunciado.png) | [Solucao1](funcoes/atividades_lista/atividade6/solucao1/src/App.java) | X
+6 | [Enunciado](funcoes/atividades_slides/atividade6/enunciado.png) | [Solucao1](funcoes/atividades_lista/atividade6/solucao1/src/App.java) | X
 ### Atividade Slide (Vetores)
 
 ### Atividade Lista (Vetores)
