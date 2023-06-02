@@ -1,4 +1,4 @@
-# Repositório de Atividades de Java - Vetores e Funções
+# Repositório de Atividades de Java - Funções, String e Vetores
 Bem-vindo ao repositório de atividades de Java focadas em vetores e funções! Este repositório foi criado para auxiliá-lo nas atividades propostas pelo seu professor de Lógica de Programação e Algoritmos. Aqui você encontrará uma variedade de exercícios e exemplos relacionados a vetores e funções em Java, com resolução. <br>
 
 *Os arquivos de resolução estão dentro da página src, com o nome app.java*
@@ -18,7 +18,7 @@ O repositório está organizado da seguinte maneira:
            |-- solucao1.java
     |-- atividade_lista/
         |-- atividade1
-|-- vetores/
+|-- string/
 ...
 ```
 A pasta atividades/ contém subpastas, e cada subspasta possui uma fonte diferente, para cada atividade específica. Cada atividade conterá o enunciado do exercício e a solução em java. Sinta-se à vontade para adicionar suas próprias soluções nesta pasta.
@@ -43,6 +43,10 @@ Num | Enunciado | Solução1 | Solução2
 4 | [Enunciado](funcoes/atividades_lista/atividade4/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade4/solucao1/src/App.java) | X
 5 | [Enunciado](funcoes/atividades_lista/atividade5/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade5/solucao1/src/App.java) | X
 6 | [Enunciado](funcoes/atividades_lista/atividade6/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade6/solucao1/src/App.java) | X
+### Atividade Slide (String)
+
+### Atividade Lista (String)
+
 ### Atividade Slide (Vetores)
 
 ### Atividade Lista (Vetores)
@@ -77,3 +81,53 @@ Divirta-se programando!
 Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
 
 ## Precisando organizar
+Atividade Slide Exercicio 1 String
+public class App {
+  
+    public static void main(String[] args) {
+        palavra("Maroto");
+    }
+
+    public static void palavra(String p) {
+      for(int i = 0; i < p.length() ; i++){
+         System.out.println(p.charAt(i));
+      }
+    }
+}
+
+Atividade Slide Exercicio 2 String
+public class Main {
+  
+    public static void main(String[] args) {
+        palavra("Ronaldo");
+    }
+
+    public static void palavra(String p) {
+      for(int i = 0; i < p.length() ; i++){
+        for(int j=0; j<=i; j++) {
+				System.out.print(p.charAt(j));
+			}
+			System.out.println();;
+      }
+    }
+}
+
+Atividade Slide Exercicio 3 String
+public class Main {
+  
+    public static void main(String[] args) {
+       System.out.println(quantosa("Sacanagem"));
+    }
+
+    public static int quantosa(String p) {
+        int count = 0;
+        p = p.toLowerCase();
+        for (int i = 0; i < p.length(); i++) {
+            if (p.charAt(i) == 'a') {
+                count++;
+            }
+        }
+       return count;
+    }
+}
+
