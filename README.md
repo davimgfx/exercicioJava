@@ -131,3 +131,35 @@ public class Main {
     }
 }
 
+Atividade Slide Exercicio 4String
+public class Main {
+  
+    public static void main(String[] args) {
+      System.out.println(removerSubstring("removersub", "sub"));
+    }
+
+ public static String removerSubstring(String palavra, String substring){
+        return palavra.replace(substring, "");
+    }
+}
+
+Atividade Slide Exercicio 5 String
+public class Main {
+    public static void main(String[] args) {
+        String[] teste = removerPrimeiraUltimaPalavra("eu sou o Douglas");
+        for (int i = 0; i < teste.length; i++) {
+            System.out.print(teste[i]+" ");
+        }
+    }
+
+    public static String[] removerPrimeiraUltimaPalavra(String frase) {
+        String[] palavras = frase.split(" ");
+        String[] novafrase = new String[palavras.length - 2];
+
+        for (int i = 0; i < novafrase.length; i++) {
+            novafrase[i] = palavras[i + 1];
+        }
+
+        return novafrase;
+    }
+}
