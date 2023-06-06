@@ -39,7 +39,7 @@ Num | Enunciado | Solução1 | Solução2
 ---|---|---|---
 1 | [Enunciado](funcoes/atividades_lista/atividade1/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade1/solucao1/src/App.java) | X
 2 | [Enunciado](funcoes/atividades_lista/atividade2/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade2/solucao1/src/App.java) | X
-3 | [Enunciado](funcoes/atividades_lista/atividade3/enunicado.md) | [Solucao1](funcoes/atividades_lista/atividade3/solucao1/src/App.java) | X
+3 | [Enunciado](funcoes/atividades_lista/atividade3/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade3/solucao1/src/App.java) | X
 4 | [Enunciado](funcoes/atividades_lista/atividade4/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade4/solucao1/src/App.java) | X
 5 | [Enunciado](funcoes/atividades_lista/atividade5/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade5/solucao1/src/App.java) | X
 6 | [Enunciado](funcoes/atividades_lista/atividade6/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade6/solucao1/src/App.java) | X
@@ -342,6 +342,27 @@ public class Main {
       }
     }
     
+      public static int[] preencherArray() {
+        int[] array = new int[10];
+        Random random = new Random();
+        
+        for (int i = 0; i < array.length; i++) {
+            int numero = random.nextInt(21);
+            array[i] = numero;
+        }
+        
+        return array;
+    }
+  public static int[] somarArrays(int[] array1, int[] array2){
+     int[] novoArray = new int[10];
+     for (int i = 0; i < novoArray.length; i++) {
+      novoArray[i] = array1[i] + array2[i];
+    }
+    return novoArray;
+  }
+}
+
+    
  Atividade Slide Exercicio 3 Vetor
  
 import java.util.Scanner;
@@ -367,23 +388,116 @@ public class Main {
     }
 
 }
+
+
+    
+Atividade Slide Exercicio 4 Vetor
+
+public class Main {
+    public static void main(String[] args) {
+      int[] fibo = preencherFibonacci(2);
+      for (int i = 0; i <  fibo.length; i++) {
+        System.out.println(fibo[i]);
+      }
+    }
+    
+    public static int[] preencherFibonacci(int n) {
+        int[] array = new int[n];
+        int a=1,b=1, c=a+b, i=1;
+        array[0] = 1;
+        while(i < n){
+          c = a+b;
+          a = b;
+          b = c;
+          array[i] = a;
+          i++;
+        }
+    return array;
+    }
+}
+
+Atividade Slide Exercicio 5 Vetor
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+      int[] array = preencherArray();
+       for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+       }
+      quantDeVezes(array, 3);
+    }
     
     public static int[] preencherArray() {
-        int[] array = new int[10];
+        int[] array = new int[50];
         Random random = new Random();
-        
         for (int i = 0; i < array.length; i++) {
-            int numero = random.nextInt(21);
+            int numero = random.nextInt(5) + 1;
             array[i] = numero;
         }
         
         return array;
     }
-  public static int[] somarArrays(int[] array1, int[] array2){
-     int[] novoArray = new int[10];
-     for (int i = 0; i < novoArray.length; i++) {
-      novoArray[i] = array1[i] + array2[i];
+  public static void quantDeVezes(int[] v, int n){
+     int contador = 0;
+     for (int i = 0; i < v.length; i++) {
+        if(v[i] == n){
+          contador++;
+        }
     }
-    return novoArray;
+    System.out.println("O numero "+n+" apareceu no vetor "+contador+" vezes");
   }
+}
+
+Atividade Slide Exercicio 6 Vetor
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+      double[] mediasFinais = {9.5, 9.5, 9.5, 9.5, 9.5};
+      int numDeAlunos = 5;
+      double media = mediaDaTurma(mediasFinais, numDeAlunos);
+      System.out.println("A media da turma foi "+media);
+    }
+    
+    public static double mediaDaTurma(double[] v, int n) {
+        double soma = 0;
+        for(int i = 0; i < v.length; i++){
+          soma += v[i];
+        }
+        return soma/n;
+    }
+
+}
+
+Atividade Slide Exercicio 7 Vetor
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+        double[] mediasFinais = {9.5, 9.5, 9.5, 7.5, 2.5};
+        int numDeAlunos = 5;
+        double media = mediaDaTurma(mediasFinais, numDeAlunos);
+        int alunosQuePassaram = acimadamedia(mediasFinais, media);
+        System.out.println("A média da turma foi " + media);
+        System.out.println("Os alunos que passaram foram " + alunosQuePassaram);
+    }
+    
+    public static double mediaDaTurma(double[] v, int n) {
+        double soma = 0;
+        for(int i = 0; i < v.length; i++){
+          soma += v[i];
+        }
+        return soma / n;
+    }
+  
+     public static int acimadamedia(double[] arrayMedias, double m) {
+        int contador = 0;
+        for(int i = 0; i < arrayMedias.length; i++){
+          if(arrayMedias[i] >= m){
+            contador++;
+          }
+        }
+        return contador;
+    }
 }
