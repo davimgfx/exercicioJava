@@ -501,3 +501,146 @@ public class Main {
         return contador;
     }
 }
+
+Atividade Lista Exercicio 1 Vetor
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] nomes = new String[3];
+        int[] idades = new int[3];
+        preencherVetores(nomes, idades);
+          for(int i = 0; i < 3; i++){
+          System.out.println("Nome: "+nomes[i]+" Idade: "+idades[i]);
+       }
+        calcularMedia(nomes, idades);
+    }
+    
+    public static void preencherVetores(String[] v, int[] n) {
+       Scanner sc = new Scanner(System.in);
+       for(int i = 0; i < 3; i++){
+          System.out.println("Digite seu nome: ");
+          v[i] = sc.next();
+          System.out.println("Digite sua idade: ");
+         n[i] = sc.nextInt();
+       }
+    }
+
+  public static void calcularMedia(String[] v, int[] n){
+      double soma = 0, media;
+      for(int i = 0; i < 3; i++){
+        soma += n[i];
+       }
+      media = soma/3;
+    System.out.println("A media é "+media);
+    for(int i = 0; i < 3; i++){
+        if(n[i] >= media){
+           System.out.println("Possui idade acima da media "+v[i]);
+        }
+       }
+  }
+  
+}
+
+Atividade Lista Exercicio 2 Vetor
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] nomes = new String[6];
+        preencherVetores(nomes);
+        for (int i = 0; i < 6; i++) {
+            System.out.println("Nome: " + nomes[i]);
+            System.out.println("");
+        }
+        eleicao(nomes);
+    }
+
+    public static void preencherVetores(String[] v) {
+        v[0] = "Branco";
+        Scanner sc = new Scanner(System.in);
+        for (int i = 1; i < 6; i++) {
+            System.out.println("Digite seu nome: ");
+            v[i] = sc.next();
+        }
+    }
+
+    public static void eleicao(String[] nomes) {
+        int opcao;
+        int[] votos = new int[6];
+        Scanner sc = new Scanner(System.in);
+        do {
+            for (int i = 0; i < 6; i++) {
+                System.out.printf("Opção %d - %s | Votos: %d\n", i, nomes[i], votos[i]);
+            }
+            System.out.println("Deseja votar em qual candidato? (Digite o número da opção ou -1 para sair)");
+            opcao = sc.nextInt();
+            if (opcao >= 1 && opcao <= 5) {
+                votos[opcao]++;
+            } else if (opcao != -1) {
+                votos[0]++;
+            }
+        } while (opcao != -1);
+
+        int maiorVotos = votos[1];
+        for (int i = 1; i < 6; i++) {
+            if (votos[i] > maiorVotos) {
+                maiorVotos = votos[i];
+            }
+        }
+
+        System.out.println("O vencedor foi:");
+        for (int i = 1; i < 6; i++) {
+            if (votos[i] == maiorVotos) {
+                System.out.println(nomes[i]);
+            }
+        }
+    }
+}
+
+Atividade Lista Exerccio 3 Vetor
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args) {
+      int[] array = preencherArray();
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+       }
+      System.out.println("");
+      System.out.println("");
+      bubbleSort(array);
+       for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+       }
+    }
+    
+    public static int[] preencherArray() {
+        int[] array = new int[10];
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            int numero = random.nextInt(50) + 1;
+            array[i] = numero;
+        }
+        
+        return array;
+    }
+  
+ public static void bubbleSort(int[] array) {
+        int n = array.length;
+        
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                // Compara elementos adjacentes
+                if (array[j] > array[j + 1]) {
+                    // Troca os elementos de posição
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+    }
+}
+
