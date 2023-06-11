@@ -44,7 +44,7 @@ Num | Enunciado | Solução1 | Solução2
 5 | [Enunciado](funcoes/atividades_lista/atividade5/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade5/solucao1/src/App.java) | X
 6 | [Enunciado](funcoes/atividades_lista/atividade6/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade6/solucao1/src/App.java) | X
 ### Atividade Slide (String)
-
+1 |  [Enunciado](string/atividades_lista/atividade1/enunciado.md) | [Solucao1](string/atividades_lista/atividade1/solucao1/src/App.java) | X
 ### Atividade Lista (String)
 
 ### Atividade Slide (Vetores)
@@ -81,19 +81,6 @@ Divirta-se programando!
 Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
 
 ## Precisando organizar
-Atividade Slide Exercicio 1 String
-public class App {
-  
-    public static void main(String[] args) {
-        palavra("Maroto");
-    }
-
-    public static void palavra(String p) {
-      for(int i = 0; i < p.length() ; i++){
-         System.out.println(p.charAt(i));
-      }
-    }
-}
 
 Atividade Slide Exercicio 2 String
 public class Main {
