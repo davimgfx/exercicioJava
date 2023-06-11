@@ -44,8 +44,10 @@ Num | Enunciado | Solução1 | Solução2
 5 | [Enunciado](funcoes/atividades_lista/atividade5/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade5/solucao1/src/App.java) | X
 6 | [Enunciado](funcoes/atividades_lista/atividade6/enunciado.md) | [Solucao1](funcoes/atividades_lista/atividade6/solucao1/src/App.java) | X
 ### Atividade Slide (String)
+Num | Enunciado | Solução1 | Solução2 
 ---|---|---|---
-1 |  [Enunciado](string/atividades_lista/atividade1/enunciado.md) | [Solucao1](string/atividades_lista/atividade1/solucao1/src/App.java) | X
+1 | [Enunciado](string/atividades_lista/atividade1/enunciado.md) | [Solucao1](string/atividades_lista/atividade1/solucao1/src/App.java) | X
+
 ### Atividade Lista (String)
 
 ### Atividade Slide (Vetores)
