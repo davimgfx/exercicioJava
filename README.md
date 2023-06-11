@@ -46,7 +46,7 @@ Num | Enunciado | Solução1 | Solução2
 ### Atividade Slide (String)
 Num | Enunciado | Solução1 | Solução2 
 ---|---|---|---
-1 | [Enunciado](string/atividades_lista/atividade1/enunciado.md) | [Solucao1](string/atividades_slides/atividade1/solucao1/src/App.java) | X
+1 | [Enunciado](string/atividades_slides/atividade1/enunciado.md) | [Solucao1](string/atividades_slides/atividade1/solucao1/src/App.java) | X
 
 ### Atividade Lista (String)
 
