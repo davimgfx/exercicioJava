@@ -1,0 +1,1 @@
+public class App { public static void main(String[] args) { int numDePalavras = contarPalavras("oi vida linda"); System.out.println(numDePalavras); } public static int contarPalavras(String frase) { String[] palavras = frase.split(" "); return palavras.length; } }
