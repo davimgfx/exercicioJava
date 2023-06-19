@@ -1,3 +1,3 @@
-1. Faça um programa que receba dois números e descubra seu MMC. A identificação do MMC
-deve ser feita dentro de uma função que retorne tal valor. A leitura e a escrita dos dados, além
-da ativação do módulo MMC, devem ficar na função principal.
+Faça um programa que receba o nome e a idade de 20 pessoas e armazene em dois vetores.
+Uma vez preenchidos os vetores, o programa deve calcular a média das idades e listar os nomes
+das pessoas que têm idade acima da média

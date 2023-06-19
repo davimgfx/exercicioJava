@@ -1,3 +1,2 @@
-3. Faça uma função que receba por parâmetro um valor n e devolva o n-ésimo termo da
-sequência de Fibonacci. Em seguida faça um programa que use a função. Sequência de
-Fibonacci: 1, 1, 2, 3, 5, 8, 13, 21...
+3. Implemente um programa que preencha um vetor com 50 números inteiros valores recebidos
+pelo teclado e classifique-os em ordem crescente.

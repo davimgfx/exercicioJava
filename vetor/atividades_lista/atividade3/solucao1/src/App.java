@@ -1,18 +1,44 @@
-public class App {
+import java.util.Random;
 
-	public static void main(String[] args) {
-		System.out.println(Fibonacci(2));
-	}
-
-	public static int Fibonacci(int n) {
-		int a=1,b=1, c=a+b, i=2;
-		if (n == 1 || n == 2) return 1;
-    while(i < n){
-      c = a+b;
-      a = b;
-      b = c; 
-      i++;
+public class App{
+    public static void main(String[] args) {
+      int[] array = preencherArray();
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+       }
+      System.out.println("");
+      System.out.println("");
+      bubbleSort(array);
+       for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+       }
     }
-    return c;
-  }
+    
+    public static int[] preencherArray() {
+        int[] array = new int[10];
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            int numero = random.nextInt(50) + 1;
+            array[i] = numero;
+        }
+        
+        return array;
+    }
+  
+ public static void bubbleSort(int[] array) {
+        int n = array.length;
+        
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                // Compara elementos adjacentes
+                if (array[j] > array[j + 1]) {
+                    // Troca os elementos de posição
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+    }
 }
+
