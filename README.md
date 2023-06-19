@@ -53,6 +53,17 @@ Num | Enunciado | Solução1 | Solução2
 5 | [Enunciado](string/atividades_slides/atividade5/enunciado.md) | [Solucao1](string/atividades_slides/atividade5/solucao1/src/App.java) | X
 
 ### Atividade Lista (String)
+Num | Enunciado | Solução1 | Solução2 
+---|---|---|---
+1 | [Enunciado](string/atividades_lista/atividade1/enunciado.md) | [Solucao1](string/atividades_lista/atividade1/solucao1/src/App.java) | X
+2 | [Enunciado](string/atividades_lista/atividade2/enunciado.md) | [Solucao1](string/atividades_lista/atividade2/solucao1/src/App.java) | X
+3 | [Enunciado](string/atividades_lista/atividade3/enunciado.md) | [Solucao1](string/atividades_lista/atividade3/solucao1/src/App.java) | X
+4 | [Enunciado](string/atividades_lista/atividade4/enunciado.md) | [Solucao1](string/atividades_lista/atividade4/solucao1/src/App.java) | X
+5 | [Enunciado](string/atividades_lista/atividade5/enunciado.md) | [Solucao1](string/atividades_lista/atividade5/solucao1/src/App.java) | X
+6 | [Enunciado](string/atividades_lista/atividade6/enunciado.md) | [Solucao1](string/atividades_lista/atividade6/solucao1/src/App.java) | X
+7 | [Enunciado](string/atividades_lista/atividade7/enunciado.md) | [Solucao1](string/atividades_lista/atividade7/solucao1/src/App.java) | X
+8 | [Enunciado](string/atividades_lista/atividade8/enunciado.md) | [Solucao1](string/atividades_lista/atividade8/solucao1/src/App.java) | X
+9 | [Enunciado](string/atividades_lista/atividade9/enunciado.md) | [Solucao1](string/atividades_lista/atividade9/solucao1/src/App.java) | X
 
 ### Atividade Slide (Vetores)
 
