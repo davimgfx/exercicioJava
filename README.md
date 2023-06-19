@@ -84,23 +84,6 @@ Divirta-se programando!
 Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
 
 ## Precisando organizar
-
-Atividade Lista Exercicio 1 String
-public class Main {
-    public static void main(String[] args) {
-       primeiraLetraA("Arara");
-    }
-
-    public static void primeiraLetraA(String p) {
-      p = p.toLowerCase();
-       if(p.charAt(0) == 'a'){
-        System.out.println(p);
-       } else {
-        System.out.println("Não começa com letra!");
-       }
-    }
-}
-
 Atividade Lista Exercicio 2 String
 public class Main {
     public static void main(String[] args) {
