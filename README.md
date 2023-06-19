@@ -47,6 +47,10 @@ Num | Enunciado | Solução1 | Solução2
 Num | Enunciado | Solução1 | Solução2 
 ---|---|---|---
 1 | [Enunciado](string/atividades_slides/atividade1/enunciado.md) | [Solucao1](string/atividades_slides/atividade1/solucao1/src/App.java) | X
+2 | [Enunciado](string/atividades_slides/atividade2/enunciado.md) | [Solucao1](string/atividades_slides/atividade2/solucao1/src/App.java) | X
+3 | [Enunciado](string/atividades_slides/atividade3/enunciado.md) | [Solucao1](string/atividades_slides/atividade3/solucao1/src/App.java) | X
+4 | [Enunciado](string/atividades_slides/atividade4/enunciado.md) | [Solucao1](string/atividades_slides/atividade4/solucao1/src/App.java) | X
+5 | [Enunciado](string/atividades_slides/atividade5/enunciado.md) | [Solucao1](string/atividades_slides/atividade5/solucao1/src/App.java) | X
 
 ### Atividade Lista (String)
 
