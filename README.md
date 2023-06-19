@@ -66,7 +66,15 @@ Num | Enunciado | Solução1 | Solução2
 9 | [Enunciado](string/atividades_lista/atividade9/enunciado.md) | [Solucao1](string/atividades_lista/atividade9/solucao1/src/App.java) | X
 
 ### Atividade Slide (Vetores)
-
+Num | Enunciado | Solução1 | Solução2 
+---|---|---|---
+1 | [Enunciado](vetor/atividades_slides/atividade1/enunciado.md) | [Solucao1](vetor/atividades_slides/atividade1/solucao1/src/App.java) | X
+2 | [Enunciado](vetor/atividades_slides/atividade2/enunciado.md) | [Solucao1](vetor/atividades_slides/atividade2/solucao1/src/App.java) | X
+3 | [Enunciado](vetor/atividades_slides/atividade3/enunciado.md) | [Solucao1](vetor/atividades_slides/atividade3/solucao1/src/App.java) | X
+4 | [Enunciado](vetor/atividades_slides/atividade4/enunciado.md) | [Solucao1](vetor/atividades_slides/atividade4/solucao1/src/App.java) | X
+5 | [Enunciado](vetor/atividades_slides/atividade5/enunciado.md) | [Solucao1](vetor/atividades_slides/atividade5/solucao1/src/App.java) | X
+6 | [Enunciado](vetor/atividades_slides/atividade6/enunciado.md) | [Solucao1](vetor/atividades_slides/atividade6/solucao1/src/App.java) | X
+7 | [Enunciado](vetor/atividades_slides/atividade7/enunciado.md) | [Solucao1](vetor/atividades_slides/atividade7/solucao1/src/App.java) | X
 ### Atividade Lista (Vetores)
 
 ## Contribuindo
@@ -99,117 +107,6 @@ Divirta-se programando!
 Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
 
 ## Precisando organizar
-Atividade Lista Exercicio 2 String
-public class Main {
-    public static void main(String[] args) {
-       conta1("0010110111");
-    }
-
-    public static void conta1(String p) {
-      int count = 0;
-      for(int i = 0; i < p.length(); i++){
-        if(p.charAt(i) == '1'){
-        count++;
-       }
-      }
-      System.out.println(count);
-    }
-}
-
-Atividade Lista Exercicio 3 String
-public class Main {
-    public static void main(String[] args) {
-       contaLetra("00101101a11a", 'a');
-    }
-
-    public static void contaLetra(String p, char letra) {
-      int count = 0;
-      for(int i = 0; i < p.length(); i++){
-        if(p.charAt(i) == letra){
-        count++;
-       }
-      }
-      System.out.println(count);
-    }
-}
-
-Atividade Lista Exercicio 4 String
-public class Main {
-    public static void main(String[] args) {
-        System.out.println(troca0por1("00101101a11a"));
-    }
-
-    public static String troca0por1(String p) {
-      return p.replace('0', '1');
-    }
-}
-
-Atividade Lista Exercicio 5 String
-public class Main {
-    public static void main(String[] args) {
-        imprimeAoContrario("oi vida");
-    }
-
-    public static void imprimeAoContrario(String p) {
-      for(int i = p.length() - 1; i >= 0; i--){
-        System.out.print(p.charAt(i));
-      }
-    }
-}
-
-Atividade Lista Exercicio 6 String
-public class Main {
-    public static void main(String[] args) {
-       String novaPalavra = substituaPalavras("oi vida linda", 'a', 'b');
-	     System.out.println(novaPalavra);
-    }
-  
-    public static String substituaPalavras(String frase, char letra1, char letra2) {
-        return frase.replace(letra1, letra2);
-    }
-}
-
-
-Atividade Lista Exercicio 7 String
-public class Main {
-    public static void main(String[] args) {
-        imprimePiramide("oi vida");
-    }
-
-    public static void imprimePiramide(String p) {
-      for(int i = 0; i < p.length(); i++){
-          System.out.println(p.charAt(i));
-        }
-    }
-}
-Atividade Lista Exercicio 8 String
-public class Main {
-    public static void main(String[] args) {
-       int numDePalavras = contarPalavras("oi vida linda");
-	     System.out.println(numDePalavras);
-    }
-    public static int contarPalavras(String frase) {
-        String[] palavras = frase.split(" ");
-        return palavras.length;
-    }
-}
-
-Atividade Lista Exercicio 9 String
-public class Main {
-    public static void main(String[] args) {
-        imprimePiramide("oi vida");
-    }
-
-    public static void imprimePiramide(String p) {
-      for(int i = 0; i < p.length(); i++){
-        for(int j = 0; j <= i; j++){
-          System.out.print(p.charAt(j));
-        }
-        System.out.println("");
-      }
-    }
-}
-
 Atividade Slide Exercicio 1 Vetor
 import java.util.Random;
 
