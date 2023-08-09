@@ -84,6 +84,9 @@ Num | Enunciado | Solução1 | Solução2
 2 | [Enunciado](vetor/atividades_lista/atividade2/enunciado.md) | [Solucao1](vetor/atividades_lista/atividade2/solucao1/src/App.java) | X
 3 | [Enunciado](vetor/atividades_lista/atividade3/enunciado.md) | [Solucao1](vetor/atividades_lista/atividade3/solucao1/src/App.java) | X
 
+### Para ir para POO ou as anotações
+ [Ir para as Anotações de POO](POO/README.md)
+
 ## Contribuindo
 Sinta-se à vontade para contribuir com este repositório! Se você tiver soluções alternativas para as atividades existentes ou quiser adicionar novas atividades ou exemplos, siga estas etapas:
 
