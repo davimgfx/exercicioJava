@@ -114,4 +114,5 @@ Este repositório foi criado para auxiliá-lo em suas atividades de Java relacio
 Divirta-se programando!
 
 ## Créditos
-Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL
+Christianne Orrico Dalforno, professora de Lógica de Programação e Algoritmos na UCSAL. (Lógica de Programação)
+Gustavo Guanabara, professor dono do Curso em Video. (POO)
