@@ -19,6 +19,8 @@ O repositório está organizado da seguinte maneira:
     |-- atividade_lista/
         |-- atividade1
 |-- string/
+|-- POO
+    |-- README.md (Contém as anotações de POO)
 ...
 ```
 A pasta atividades/ contém subpastas, e cada subspasta possui uma fonte diferente, para cada atividade específica. Cada atividade conterá o enunciado do exercício e a solução em java. Sinta-se à vontade para adicionar suas próprias soluções nesta pasta.
