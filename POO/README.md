@@ -7,3 +7,4 @@
 	• Unidades de organização e interação em um programa orientado a objetos.
     • Paradigma enfatiza a modularidade, o encapsulamento, a herança e o polimorfismo.
 
+![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/ac4dc279-fe69-4336-8257-c32abfe530a6)
