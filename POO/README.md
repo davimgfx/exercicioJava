@@ -8,3 +8,14 @@
     • Paradigma enfatiza a modularidade, o encapsulamento, a herança e o polimorfismo.
 
 ![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/ac4dc279-fe69-4336-8257-c32abfe530a6)
+
+## COMERNada
+    • C -> Confiável.
+    • O -> Oportuno.
+    • M -> Manutenível.
+    • E -> Extensível.
+    • R -> Reutilizável.
+    • N -> Natural. (Simplificar a situação)
+
+## O QUE É UM OBJETIVO AFINAL?
+    • Qualquer coisa que tem comportamento, caracteristicas e estado.
