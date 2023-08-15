@@ -17,5 +17,5 @@
     • R -> Reutilizável.
     • N -> Natural. (Simplificar a situação)
 
-## O QUE É UM OBJETIVO AFINAL?
+## O QUE É UM OBJETO AFINAL?
     • Qualquer coisa que tem comportamento, caracteristicas e estado.
