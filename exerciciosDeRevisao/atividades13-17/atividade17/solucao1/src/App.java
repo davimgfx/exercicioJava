@@ -2,21 +2,28 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String[] nomes = new String[20];
-        int[] idade = new int[20];
+        Scanner scanner = new Scanner(System.in);
         
-        for (int i = 0; i < nomes.length; i++) {
-            System.out.println("Digite o " + (i + 1) + "^ Nome:");
-            nomes[i] = sc.nextLine();
-            
-            System.out.println("Digite a idade de " + nomes[i] + ":");
-            idade[i] = Integer.parseInt(sc.nextLine()); 
+        int tamanho = 50;
+        int[] vetor = new int[tamanho];
+        
+        for (int i = 0; i < tamanho; i++) {
+            System.out.print("Digite o valor para a posição " + i + ": ");
+            vetor[i] = scanner.nextInt();
         }
         
-        for (int i = 0; i < nomes.length; i++) {
-            System.out.println("Nome: " + nomes[i]);
-            System.out.println("Idade: " + idade[i]);
+        int maiorNumero = vetor[0];
+        int posicaoMaior = 0;
+        
+        for (int i = 1; i < tamanho; i++) {
+            if (vetor[i] > maiorNumero) {
+                maiorNumero = vetor[i];
+                posicaoMaior = i;
+            }
         }
+        
+        System.out.println("O maior número está na posição: " + posicaoMaior);
+        
+        scanner.close();
     }
 }
