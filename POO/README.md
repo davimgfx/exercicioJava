@@ -1,6 +1,7 @@
 # Programação orientada a objetos (POO)
     • É um paradigma (estilo) da programação baseada na concepção de objetos.
-    • Combinam dados (key : value) e comportamentos (métodos) relacionados.
+    • Combinam dados (key : value), comportamentos (métodos) e estados relacionados.
+    • (TODO OBJETO É FEITO A PARTIR DE UM MOLDE SEGUNDO POO)
 
 ## Objetivos
     • Aproximar o mundo digital do mundo real.
@@ -17,5 +18,17 @@
     • R -> Reutilizável.
     • N -> Natural. (Simplificar a situação)
 
-## O QUE É UM OBJETO AFINAL?
+## O que é um objeto afinal?
     • Qualquer coisa que tem comportamento, caracteristicas e estado.
+
+## E uma classe?   
+    • É um molde, um modelo do objeto.
+    • Coisas que eu tenho ( Atributos )
+    • Coisas que eu faço ( Métodos )
+    • Como eu estou agora ( Estado )
+
+## Como utilizo a classe para fazer um objeto?
+    • Instanciar um objeto a partir de uma classe.
+
+##  Abstração
+    • Simplificar a história da coisa.
