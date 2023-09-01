@@ -1,4 +1,4 @@
-# Repositório de Atividades de Java - Funções, String e Vetores
+# Repositório de Atividades de Java - Funções, String, Vetores e POO
 Bem-vindo ao repositório de atividades de Java focadas em vetores e funções! Este repositório foi criado para auxiliá-lo nas atividades propostas pelo seu professor de Lógica de Programação e Algoritmos. Aqui você encontrará uma variedade de exercícios e exemplos relacionados a vetores e funções em Java, com resolução. <br>
 
 *Os arquivos de resolução estão dentro da página src, com o nome app.java*
