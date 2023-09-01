@@ -1,16 +1,23 @@
+# Índice
+1. [Programação orientada a objetos (POO)](#programação-orientada-a-objetos-poo) <br/>
+1.1. [Primeira Aula](#primeira-aula) <br/>
+1.2. [Segunda Aula](#segunda-aula)
+
 # Programação orientada a objetos (POO)
     • É um paradigma (estilo) da programação baseada na concepção de objetos.
     • Combinam dados (key : value), comportamentos (métodos) e estados relacionados.
     • (TODO OBJETO É FEITO A PARTIR DE UM MOLDE SEGUNDO POO)
+   
+## Primeira Aula
 
-## Objetivos
+### Objetivos
     • Aproximar o mundo digital do mundo real.
 	• Unidades de organização e interação em um programa orientado a objetos.
     • Paradigma enfatiza a modularidade, o encapsulamento, a herança e o polimorfismo.
 
 ![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/ac4dc279-fe69-4336-8257-c32abfe530a6)
 
-## COMERNada
+### COMERNada
     • C -> Confiável.
     • O -> Oportuno.
     • M -> Manutenível.
@@ -18,17 +25,29 @@
     • R -> Reutilizável.
     • N -> Natural. (Simplificar a situação)
 
-## O que é um objeto afinal?
+### O que é um objeto afinal?
     • Qualquer coisa que tem comportamento, caracteristicas e estado.
 
-## E uma classe?   
+### E uma classe?   
     • É um molde, um modelo do objeto.
     • Coisas que eu tenho ( Atributos )
     • Coisas que eu faço ( Métodos )
     • Como eu estou agora ( Estado )
 
-## Como utilizo a classe para fazer um objeto?
+### Como utilizo a classe para fazer um objeto?
     • Instanciar um objeto a partir de uma classe.
 
-##  Abstração
+###  Abstração
     • Simplificar a história da coisa.
+
+---
+## Segunda Aula
+
+### UML - Linguagem de Modelagem Unificada
+    • Diagrama de Classes.
+![notacao-de-diagrama-de-classe-3](https://github.com/davimgfx/exerciciosJava/assets/118557337/d6da98c4-595d-427c-a8e9-8bea3f2b4f6e)
+
+### Modificadores de Visibilidade
+    • + -> Público (todos tem acesso).
+    • - -> Privado (apenas a própria classe pode mexer nela).
+    • # -> Protegido (a classe atual e todas as suas sub-classes).
