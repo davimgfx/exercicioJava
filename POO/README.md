@@ -74,9 +74,15 @@
 
 #### Métodos Acessores ( Getters )
     • O método GET quer dizer PEGAR ALGO.
+   ![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/7e4ac3bd-7712-4f68-9fb1-81868de4e3a4)
+
 
 #### Métodos  Modificadores/Mutantes ( Setters )
     • O método SET quer dizer MODIFICAR ALGO.
+   ![Screenshot_2](https://github.com/davimgfx/exerciciosJava/assets/118557337/852b9ba3-fde0-4f66-9ad3-bbc3aee65fcd)
+
+![Screenshot_3](https://github.com/davimgfx/exerciciosJava/assets/118557337/a4cec945-9837-4911-bbcd-76bcc4aa54f2)
+
 
 #### Métodos Construtores ( Construct )
     • O método Construct é definir ATRIBUTOS FIXOS.
