@@ -3,8 +3,8 @@
 1. [Programação orientada a objetos (POO)](#programação-orientada-a-objetos-poo) <br/>
    1.1. [Primeira Aula](#primeira-aula)
    1.2. [Segunda Aula](#segunda-aula)
-   1.3. [Segunda Aula](#terceira-aula)
-
+   1.3. [Terceira Aula](#terceira-aula)
+   1.4. [Quarta Aula](#quarta-aula)
 # Programação orientada a objetos (POO)
 
     • É um paradigma (estilo) da programação baseada na concepção de objetos.
@@ -86,3 +86,12 @@
 
 #### Métodos Construtores ( Construct )
     • O método Construct é definir ATRIBUTOS FIXOS.
+
+
+###### *MACETE PARA CRIAR METODOS ESPECIAIS NO ECLIPSE: ALT + SHIFT + S + R*
+
+---
+
+## Quarta Aula
+
+### Aula Prática
