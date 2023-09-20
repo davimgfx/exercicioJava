@@ -60,6 +60,7 @@
 ![notacao-de-diagrama-de-classe-3](https://github.com/davimgfx/exerciciosJava/assets/118557337/d6da98c4-595d-427c-a8e9-8bea3f2b4f6e)
 
 ### Modificadores de Visibilidade
+![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/c8312f6a-12ad-4355-a44f-7ef057e4edab)
 
     • + -> Público (todos tem acesso).
     • - -> Privado (apenas a própria classe pode mexer nela).
