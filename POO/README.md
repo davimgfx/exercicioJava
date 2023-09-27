@@ -96,3 +96,7 @@
 ## Quarta Aula/ Quinta aula / Sexta aula
 
 ### Aula Prática
+### Encapsulamento
+![Encapsulamento+Consiste+em+ocultar+a+implementação+dos+métodos+e+restringir+o+acesso+aos+atributos+somente+através+de+métodos+internos;](https://github.com/davimgfx/exerciciosJava/assets/118557337/913c9bc5-1a80-463c-998c-a618f08ebf7c)
+
+
