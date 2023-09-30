@@ -99,4 +99,19 @@
 ### Encapsulamento
 ![Encapsulamento+Consiste+em+ocultar+a+implementação+dos+métodos+e+restringir+o+acesso+aos+atributos+somente+através+de+métodos+internos;](https://github.com/davimgfx/exerciciosJava/assets/118557337/913c9bc5-1a80-463c-998c-a618f08ebf7c)
 
+## Sétima Aula
+
+### Relacionamento entre Classes
+
+
+![DIAGRAMA](https://github.com/davimgfx/exerciciosJava/assets/118557337/15289c0b-1306-4a75-a638-7c72f13b402d) <br />
+
+### Lutadores 
+
+![Screenshot_6](https://github.com/davimgfx/exerciciosJava/assets/118557337/f4ddc419-4f26-49d1-b589-84a3a0e4936b)
+![Screenshot_5](https://github.com/davimgfx/exerciciosJava/assets/118557337/0f01290d-104c-4b67-93ec-dcb4cc0087cb)
+![Screenshot_4](https://github.com/davimgfx/exerciciosJava/assets/118557337/b047c927-4110-4fce-8335-b08409789256)
+![Screenshot_3](https://github.com/davimgfx/exerciciosJava/assets/118557337/0737df5e-3955-4717-83cd-d6aa3f884105)
+![Screenshot_2](https://github.com/davimgfx/exerciciosJava/assets/118557337/fb5fdb3e-e482-4a7f-8578-04d81a8a5056)
+![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/ac5acdc8-409f-4cb0-8368-a659e5393c29)
 
