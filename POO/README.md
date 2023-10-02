@@ -115,3 +115,5 @@
 ![Screenshot_2](https://github.com/davimgfx/exerciciosJava/assets/118557337/fb5fdb3e-e482-4a7f-8578-04d81a8a5056)
 ![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/ac5acdc8-409f-4cb0-8368-a659e5393c29)
 
+### Luta
+![Diagrama sem nome drawio](https://github.com/davimgfx/exerciciosJava/assets/118557337/6eae167b-5365-4523-978e-7263228b87d9)
