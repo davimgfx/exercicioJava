@@ -7,10 +7,10 @@ public class SimularCorrida {
         int distanciaMaxima = 50;
         
         System.out.println("INICIO DA CORRIDA!");
-        System.out.println("--------------------------------------------------");
+        System.out.println("---------------------------------------------------");
         System.out.println("#");
         System.out.println("#");
-        System.out.println("--------------------------------------------------");
+        System.out.println("---------------------------------------------------");
         
         while (carro1.getDistancia() < distanciaMaxima && carro2.getDistancia() < distanciaMaxima) {
             carro1.mover();
