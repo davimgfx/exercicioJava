@@ -1,10 +1,12 @@
 # Índice
 
 1. [Programação orientada a objetos (POO)](#programação-orientada-a-objetos-poo) <br/>
-   1.1. [Primeira Aula](#primeira-aula)
-   1.2. [Segunda Aula](#segunda-aula)
-   1.3. [Terceira Aula](#terceira-aula)
-   1.4. [Quarta Aula](#quarta-aula)
+   1.1. [Primeira Aula](#primeira-aula) <br/>
+   1.2. [Segunda Aula](#segunda-aula)   <br/>
+   1.3. [Terceira Aula](#terceira-aula)   <br/>
+   1.4. [Quarta Aula](#quarta-aula)   <br/>
+   1.5. [Setima Aula](#setima-aula)   <br/>
+   1.6. [Nona Aula](#nona-aula)
 # Programação orientada a objetos (POO)
 
     • É um paradigma (estilo) da programação baseada na concepção de objetos.
@@ -93,13 +95,13 @@
 
 ---
 
-## Quarta Aula/ Quinta aula / Sexta aula
+## Quarta Aula
 
 ### Aula Prática
 ### Encapsulamento
 ![Encapsulamento+Consiste+em+ocultar+a+implementação+dos+métodos+e+restringir+o+acesso+aos+atributos+somente+através+de+métodos+internos;](https://github.com/davimgfx/exerciciosJava/assets/118557337/913c9bc5-1a80-463c-998c-a618f08ebf7c)
 
-## Sétima Aula
+## Setima Aula
 
 ### Relacionamento entre Classes
 
@@ -117,3 +119,7 @@
 
 ### Luta
 ![Diagrama sem nome drawio](https://github.com/davimgfx/exerciciosJava/assets/118557337/6eae167b-5365-4523-978e-7263228b87d9)
+
+## Nona Aula
+
+### Exercicios
