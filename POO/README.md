@@ -6,7 +6,8 @@
    1.3. [Terceira Aula](#terceira-aula)   <br/>
    1.4. [Quarta Aula](#quarta-aula)   <br/>
    1.5. [Setima Aula](#setima-aula)   <br/>
-   1.6. [Nona Aula](#nona-aula)
+   1.6. [Nona Aula](#nona-aula) <br/>
+   1.7. [Decima Aula](#decima-aula)
 # Programação orientada a objetos (POO)
 
     • É um paradigma (estilo) da programação baseada na concepção de objetos.
@@ -123,3 +124,13 @@
 ## Nona Aula
 
 ### Exercicios
+
+
+## Decima Aula
+### Herança
+    • Permite basear uma nova classe na definição de uma outra classe previamente existente.
+    • Quanto as características e comportamentos.
+    
+![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/a5c20a40-6518-490f-9aca-7d0fcf639751)
+
+![classepessoafisicajuridica-heranca](https://github.com/davimgfx/exerciciosJava/assets/118557337/621e94d2-b3d4-4fed-8791-d8ccc0fe9d61)
