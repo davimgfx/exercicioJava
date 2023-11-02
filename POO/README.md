@@ -134,3 +134,16 @@
 ![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/a5c20a40-6518-490f-9aca-7d0fcf639751)
 
 ![classepessoafisicajuridica-heranca](https://github.com/davimgfx/exerciciosJava/assets/118557337/621e94d2-b3d4-4fed-8791-d8ccc0fe9d61)
+
+    • A claase máe é superclasse ( A é superclasse de AB) (AB é superclasse de ABA)
+    • A classe filha é subclasse. ( AB é subclasse de A) (ABAA é subclasse de ABA)
+    • A é a raiz da arvore
+    • ABAA, ABAB, AAA E ACA são folhas
+    
+![Screenshot_2](https://github.com/davimgfx/exerciciosJava/assets/118557337/61e1f201-d1e2-43d5-a542-cc5a73bc5832)
+
+#### Herança de implementação
+
+### Sobreposição
+    • Serve para adicionar as outras propriedades 
+    • 
