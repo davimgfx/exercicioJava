@@ -146,4 +146,26 @@
 
 ### Sobreposição
     • Serve para adicionar as outras propriedades 
-    • 
+
+## Decima segunda Aula
+### Polimorfismo
+    • Poli -> muitos, morfo -> formas, muitas formas.
+    • Quanto as características e comportamentos.
+
+#### Assinatura do método
+    • Quantidade e os tipos dos parâmetros.
+
+##### Assinatura Iguais
+![Screenshot_1](https://github.com/davimgfx/exerciciosJava/assets/118557337/6b2c7b36-34be-4a35-88af-f076afccd12c)
+
+##### Assinatura diferente
+![Screenshot_2](https://github.com/davimgfx/exerciciosJava/assets/118557337/cdb0dac8-3255-48f1-80ae-815c812e9344)
+
+### Tipos de polimorfismo
+
+#### Sobreposição (@Override)
+
+#### Sobrecarga
+
+### Classe abstrata
+    • Serve apenas para Herança, e não pode criar um objeto a partir dela  
