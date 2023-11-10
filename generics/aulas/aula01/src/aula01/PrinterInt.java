@@ -7,7 +7,7 @@ public class PrinterInt {
 	public PrinterInt(int num) {
 		this.number = num;
 	}
-	
+
 	public void print() {
 		System.out.println(getNumber());
 	}
