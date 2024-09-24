@@ -26,14 +26,14 @@ public class Main {
     public static int acharNumeroBuscaBinaria(int[] vetor, int numero){
         int inicio = 0;
         int fim = vetor.length - 1;
-        int count = 0;
+        //int count = 0;
 
         while(inicio <= fim){
-            count++;
+            //count++;
             int meio = (inicio + fim) / 2;
 
             if(vetor[meio] == numero){
-                System.out.println("Numero do contador: "+ count);
+                //System.out.println("Numero do contador: "+ count);
                 return meio;
             } else if(vetor[meio] < numero){
                 inicio = meio + 1;
